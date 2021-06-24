@@ -18,10 +18,12 @@ grid = [['.', '.', '.', '.', '2', '.', '8', '9', '.'],
         ['.', '1', '.', '2', '.', '.', '.', '.', '.'],
         ['.', '2', '.', '.', '3', '.', '.', '.', '.']]
 
+
 def sudoku(grid):
    """
    Each column, each row, and each 3 × 3 subgrid can only contain the numbers 1 through 9 one time.
-   Implements an algorithm that will check whether the given grid of numbers represents a valid Sudoku puzzle according to the layout rules described above. Note that the puzzle represented by grid does not have to be solvable.
+   Implements an algorithm that will check whether the given grid of numbers represents a valid Sudoku puzzle 
+   according to the layout rules described above. Note that the puzzle represented by grid does not have to be solvable.
    """
    # Empty sets for row, column, and 3x3 grid.
    row_set = set()
@@ -44,5 +46,12 @@ def sudoku(grid):
             grid_three_set.add(by_three_index)
    return True
 
+
+print('hello')
+
 print(sudoku(grid))
+
+
+
+
 

@@ -17,3 +17,5 @@ def retrieve_char(string):
    return char_indices
 
 
+
+
